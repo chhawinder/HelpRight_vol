@@ -1,0 +1,107 @@
+body {
+    background-color: #f0f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #2978b5;
+    text-align: center;
+  }
+  
+  /*
+  input[type="file"] {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #6495ED;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #6495ED;
+    cursor: pointer;
+  } */
+  
+  
+  #form3 {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .upload {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2978b5;
+  }
+  
+  input[type="email"], input[type="tel"], input[type="text"], input[type="password"]  {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #2978b5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1d5d90;
+  }
+  
+  /* Set the font size and padding of the select element */
+  select {
+    /* font-size: 16px;
+    padding: 8px; */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  /* Style the options */
+  option {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  /* Style the "Select your skills" options to be italicized */
+  option[value="select"] {
+    font-style: italic;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="checkbox"] + label {
+    font-weight: normal;
+  }
+  
